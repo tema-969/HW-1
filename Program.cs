@@ -28,6 +28,7 @@ else
 2, 3, 7 -> 7
 44 5 78 -> 78
 22 3 9 -> 22*/
+
 Console.WriteLine("Введите первое число: ");
 string numberA = Console.ReadLine();
 int numberA1 = Convert.ToInt32(numberA);
@@ -61,4 +62,21 @@ Console.WriteLine("Введите число: ");
 string strnumber = Console.ReadLine();
 int number = Convert.ToInt32(strnumber);
 
-if ()
+if (number %2 >0)
+{
+    System.Console.WriteLine($"Число: {number} нечетное.");
+}
+else if (number %2 <0)
+{
+    System.Console.WriteLine($"Число: {number} нечетное.");
+}
+else
+{
+    System.Console.WriteLine($"Число: {number} четное.");
+}
+
+/*Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+5 -> 2, 4
+8 -> 2, 4, 6, 8*/
+
