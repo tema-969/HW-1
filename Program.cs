@@ -80,3 +80,18 @@ else
 5 -> 2, 4
 8 -> 2, 4, 6, 8*/
 
+Console.WriteLine("Введите число: ");
+string userNumber = Console.ReadLine();
+int variable = Convert.ToInt32(userNumber);
+int a = 1;
+while(a<=variable)
+{
+    if(a%2 == 0)
+    {
+        Console.Write($"{a} ");
+    }
+    a++;
+}
+Console.WriteLine();
+
+/*End*/
